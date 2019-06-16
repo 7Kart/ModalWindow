@@ -79,7 +79,8 @@ export default {
       if (!this.$v.$invalid) {
         const user = {
           email: this.email,
-          password: this.password
+          password: this.password,
+          confirmPass: this.confirmPass
         };
         console.log(user);
         this.closeModal();
